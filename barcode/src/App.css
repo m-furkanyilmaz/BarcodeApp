@@ -1,0 +1,34 @@
+body {
+  background-image: url(images/bg_clouds.jpg);
+}
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  height: 870px;
+}
+form {
+  width: 500px;
+}
+button {
+  margin-top: 15px;
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  text-align: center;
+}
+table,
+td,
+th {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+td {
+  font-size: 7.5px;
+}
